@@ -1,6 +1,7 @@
 import { BaseModel, column, HasOne, hasOne, belongsTo, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
 import Department from 'App/Models/Group/Department'
 import TrainingType from 'App/Models/Group/TrainingType'
+import TrainingForm from 'App/Models/Group/TrainingForm'
 // import Faculty from 'App/Models/Group/Faculty'
 
 export default class Group extends BaseModel {
@@ -8,13 +9,13 @@ export default class Group extends BaseModel {
   public id: number
 
   @column()
-  public chairId: number
+  public department_id: number
 
   @column()
   public trainingTypeId: number
 
   @column()
-  public facultyId: number
+  public trainingFormId: number
 
   @column()
   public abbreviation: string
@@ -30,4 +31,7 @@ export default class Group extends BaseModel {
 
   @hasOne(() => TrainingType)
   public trainingType: HasOne<typeof TrainingType>
+
+  @hasOne(() => TrainingForm)
+  public trainingForm: HasOne<typeof TrainingForm>
 }

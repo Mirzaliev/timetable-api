@@ -10,7 +10,7 @@ export default class Groups extends BaseSchema {
     /**
      * Кафедры факультета
      */
-    this.schema.createTable('department', (table) => {
+    this.schema.createTable('departments', (table) => {
       table.increments('id')
       table.integer('faculty_id').unsigned().nullable()
       table.string('abbreviation', 8).unique().notNullable().index()
@@ -41,16 +41,16 @@ export default class Groups extends BaseSchema {
         .comment('Институт магистратуры и аспирантуры не имуеют кафедр, поэтому отдельнгая связь')
        **/
       table
-        .integer('training_forms_id')
+        .integer('training_form_id')
         .unsigned()
         .notNullable()
         .comment('Форма обучения: ОЧНАЯ или ОЧНО-ЗАОЧНАЯ ')
       table.integer('training_type_id').unsigned().notNullable()
       table.string('abbreviation', 10).unique().notNullable().index()
       /** table.foreign('faculty_id').references('id').inTable('faculties')**/
-      table.foreign('department_id').references('id').inTable('department')
+      table.foreign('department_id').references('id').inTable('departments')
       table.foreign('training_type_id').references('id').inTable('training_types')
-      table.foreign('training_forms_id').references('id').inTable('training_forms')
+      table.foreign('training_form_id').references('id').inTable('training_forms')
     })
   }
 
@@ -58,7 +58,7 @@ export default class Groups extends BaseSchema {
     this.schema.dropTable('groups')
     this.schema.dropTable('training_types')
     this.schema.dropTable('training_forms')
-    this.schema.dropTable('department')
+    this.schema.dropTable('departments')
     this.schema.dropTable('faculties')
   }
 }
