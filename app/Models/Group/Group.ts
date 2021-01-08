@@ -1,6 +1,7 @@
 import { BaseModel, column, HasOne, hasOne, belongsTo, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
-import Chair from 'App/Models/Group/Chair'
+import Department from 'App/Models/Group/Department'
 import TrainingType from 'App/Models/Group/TrainingType'
+// import Faculty from 'App/Models/Group/Faculty'
 
 export default class Group extends BaseModel {
   @column({ isPrimary: true })
@@ -13,10 +14,19 @@ export default class Group extends BaseModel {
   public trainingTypeId: number
 
   @column()
+  public facultyId: number
+
+  @column()
   public abbreviation: string
 
-  @belongsTo(() => Chair)
-  public chair: BelongsTo<typeof Chair>
+  @column()
+  public course: number
+
+  @belongsTo(() => Department)
+  public department: BelongsTo<typeof Department>
+
+  /** @belongsTo(() => Faculty)
+  public faculty: BelongsTo<typeof Faculty>**/
 
   @hasOne(() => TrainingType)
   public trainingType: HasOne<typeof TrainingType>

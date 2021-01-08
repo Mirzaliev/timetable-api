@@ -1,5 +1,6 @@
-import { BaseModel, column, hasOne, HasOne } from '@ioc:Adonis/Lucid/Orm'
-import Chair from 'App/Models/Group/Chair'
+import { BaseModel, column, hasMany, HasMany } from '@ioc:Adonis/Lucid/Orm'
+import Department from 'App/Models/Group/Department'
+// import Group from 'App/Models/Group/Group'
 
 export default class Faculty extends BaseModel {
   @column({ isPrimary: true })
@@ -11,6 +12,9 @@ export default class Faculty extends BaseModel {
   @column()
   public name: string
 
-  @hasOne(() => Chair)
-  public chair: HasOne<typeof Chair>
+  @hasMany(() => Department)
+  public chair: HasMany<typeof Department>
+
+  /**@hasMany(() => Group)
+  public group: HasMany<typeof Group>**/
 }

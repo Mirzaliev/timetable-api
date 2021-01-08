@@ -1,8 +1,8 @@
-import { BaseModel, belongsTo, column, HasOne, hasOne, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, belongsTo, column, HasMany, hasMany, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
 import Faculty from 'App/Models/Group/Faculty'
 import Group from 'App/Models/Group/Group'
 
-export default class Chair extends BaseModel {
+export default class Department extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
@@ -18,6 +18,6 @@ export default class Chair extends BaseModel {
   @belongsTo(() => Faculty)
   public faculty: BelongsTo<typeof Faculty>
 
-  @hasOne(() => Group)
-  public group: HasOne<typeof Group>
+  @hasMany(() => Group)
+  public group: HasMany<typeof Group>
 }

@@ -6,20 +6,25 @@ export default class Schedules extends BaseSchema {
   public async up() {
     this.schema.createTable(this.tableName, (table) => {
       table.increments('id')
-      table.date('lesson_date')
-      table.integer('week_type_id').unsigned().notNullable()
+      table.date('timing').comment('Дата проведения урока или экзамена').nullable()
+      table.boolean('exam').nullable()
+      table
+        .integer('week_type_id')
+        .unsigned()
+        .nullable()
+        .comment('Четная или нечетная неделя, только для бакалавриата')
       table.integer('group_id').unsigned().notNullable()
       table.integer('lesson_id').unsigned().notNullable()
-      table.integer('lesson_number_id').unsigned().notNullable()
-      table.integer('lesson_type_id').unsigned().notNullable()
+      table.integer('lesson_number_id').unsigned().notNullable().comment('Номер урока')
+      table.integer('lesson_type_id').unsigned().nullable().comment('Практика или лекция или ЗАЧЕТ')
       table
         .integer('day_id')
         .unsigned()
         .nullable()
         .comment(
-          'для магистратуры и аспирантуры день недели не указывается, поэтому поле по умолчанию может null'
+          'Понедельник, вторник... для магистратуры и аспирантуры день недели не указывается, поэтому поле по умолчанию может null'
         )
-      table.integer('classroom_id').unsigned().notNullable()
+      table.integer('classroom_id').unsigned().notNullable().comment('аудитория урока')
       table.integer('teacher_id').unsigned().notNullable()
       table
         .integer('sub_group_id')

@@ -30,7 +30,7 @@ export default class EntitiesForScheduleAndExams extends BaseSchema {
     })
     this.schema.createTable('week_types', (table) => {
       table.increments('id')
-      table.string('name', 8).notNullable()
+      table.string('name', 8).nullable()
     })
   }
 

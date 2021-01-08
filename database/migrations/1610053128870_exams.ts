@@ -4,9 +4,9 @@ export default class Exams extends BaseSchema {
   protected tableName = 'exams'
 
   public async up() {
-    this.schema.createTable(this.tableName, (table) => {
+    /** this.schema.createTable(this.tableName, (table) => {
       table.increments('id')
-      table.date('exam_date')
+      table.date('timing').comment('Дата проведения экзамена')
       table.integer('group_id').unsigned().notNullable()
       table.integer('lesson_id').unsigned().notNullable()
       table.integer('lesson_number_id').unsigned().notNullable()
@@ -26,9 +26,10 @@ export default class Exams extends BaseSchema {
       table.foreign('teacher_id').references('id').inTable('teachers')
       table.foreign('sub_group_id').references('id').inTable('sub_groups')
     })
-  }
+     }
 
-  public async down() {
+     public async down() {
     this.schema.dropTable(this.tableName)
+  }**/
   }
 }
