@@ -13,7 +13,7 @@ export default class Faculty extends BaseModel {
   public name: string
 
   @hasMany(() => Department)
-  public chair: HasMany<typeof Department>
+  public department: HasMany<typeof Department>
 
   /**@hasMany(() => Group)
   public group: HasMany<typeof Group>**/

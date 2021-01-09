@@ -9,7 +9,7 @@ export default class Group extends BaseModel {
   public id: number
 
   @column()
-  public department_id: number
+  public departmentId: number
 
   @column()
   public trainingTypeId: number

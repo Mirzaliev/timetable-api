@@ -19,5 +19,5 @@ export default class Department extends BaseModel {
   public faculty: BelongsTo<typeof Faculty>
 
   @hasMany(() => Group)
-  public group: HasMany<typeof Group>
+  public groups: HasMany<typeof Group>
 }
