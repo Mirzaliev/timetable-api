@@ -6,7 +6,7 @@ import { ResponseJson } from 'Contracts/ResponseJson'
 export default class UsersController {
   public async index() {
     const query = await Faculty.query()
-      .where('id', 3)
+      .where('id', 1)
       .preload('department', (dep) => {
         return dep.preload('groups')
       })
