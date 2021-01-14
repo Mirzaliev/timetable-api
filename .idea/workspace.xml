@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1991ab6f-5e25-47ca-8d62-dc452c0844e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Models/OtherModels/LessonType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Teacher/AcademicDegree.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Teacher/Teacher.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Fake/FakeData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/Fake/fake_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Group/Group.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group/Group.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/Classroom.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/Classroom.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/Day.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/Day.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/Lesson.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/Lesson.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/LessonNumber.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/LessonNumber.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/LessonsType.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Schedule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Schedule.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/ResponseJson.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ResponseJson.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/jsongenerator" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/GroupsAndOtherTableSeeder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/start/routes.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,34 +46,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controllers/Http/UsersController.ts">
+        <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+            <state relative-caret-position="78">
+              <caret line="3" column="35" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="35" />
               <folding>
-                <element signature="e#71#117#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
+        <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1034">
-              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="286">
+              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts">
+        <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="464">
+              <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,10 +98,14 @@
       <find>: [</find>
       <find>lodash</find>
       <find>GROUP</find>
+      <find>'</find>
+      <find>_i</find>
     </findStrings>
     <replaceStrings>
       <replace>abbreviation</replace>
       <replace>name</replace>
+      <replace>&quot;</replace>
+      <replace>I</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Arsen\timetable-api\node_modules</dir>
@@ -90,49 +118,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commands/index.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609970968323_lessons.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609970984844_lesson_numbers.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610051006577_classrooms.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609971030441_lessons_types.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610050130756_training_types.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610051210636_positions.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610051244179_academic_deegres.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610051201788_runks.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609971055350_teachers.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610052291208_week_types.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609971105029_schedules.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609971043762_days.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609970904931_faculties.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609970935737_training_types.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1609970935737_chairs.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1610051176515_sub_groups.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/SubGroup.ts" />
-        <option value="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" />
-        <option value="$PROJECT_DIR$/app/Models/Teacher/Teacher.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1610052291208_teachers.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/Chair.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1610052291208_entities_for_schedule_and_exams.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1609970949286_groups.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1610053128870_schedules.ts" />
-        <option value="$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1610053128870_exams.ts" />
         <option value="$PROJECT_DIR$/database/seeders/FacultiesAndChair.ts" />
-        <option value="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" />
         <option value="$PROJECT_DIR$/database/seeders/tsconfig.json" />
         <option value="$PROJECT_DIR$/database/seeders/GroupsAndOtherTableSeeder.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1609970949286_groups_and_other_entities.ts" />
         <option value="$PROJECT_DIR$/database/jsongenerator" />
-        <option value="$PROJECT_DIR$/start/routes.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/Faculty.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/Department.ts" />
-        <option value="$PROJECT_DIR$/app/Models/Group/Group.ts" />
-        <option value="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" />
         <option value="$PROJECT_DIR$/node_modules/knex/lib/client.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts" />
+        <option value="$PROJECT_DIR$/database/seeders/ScheduleAndOtherTable.ts" />
+        <option value="$PROJECT_DIR$/database/factories/index.ts" />
+        <option value="$PROJECT_DIR$/database/seeders/ScheduleRelatedTables.ts" />
+        <option value="$PROJECT_DIR$/database/tsconfig.json" />
+        <option value="$PROJECT_DIR$/database/fake_data1.json" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/LessonsType.ts" />
+        <option value="$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts" />
+        <option value="$PROJECT_DIR$/start/routes.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/Classroom.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/Day.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/Lesson.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/LessonNumber.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/LessonType.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Teacher/Teacher.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Teacher/AcademicDegree.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" />
+        <option value="$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Schedule.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Group/Group.ts" />
+        <option value="$PROJECT_DIR$/contracts/ScheduleRelations.ts" />
+        <option value="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" />
         <option value="$PROJECT_DIR$/contracts/ResponseJson.ts" />
+        <option value="$PROJECT_DIR$/database/fake_data.json" />
+        <option value="$PROJECT_DIR$/database/FakeData.ts" />
+        <option value="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" />
+        <option value="$PROJECT_DIR$/database/Fake/FakeData.ts" />
+        <option value="$PROJECT_DIR$/database/Fake/fake_data.json" />
+        <option value="$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts" />
+        <option value="$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder1.ts" />
+        <option value="$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts" />
       </list>
     </option>
   </component>
@@ -185,6 +221,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Arsen\timetable-api\database\Fake" />
       <recent name="D:\Arsen\timetable-api\app\Models\Group" />
       <recent name="D:\Arsen\timetable-api\app\Models\OtherModels" />
       <recent name="D:\Arsen\timetable-api\app\Models\Teacher" />
@@ -237,7 +274,10 @@
       <workItem from="1609836160100" duration="11498000" />
       <workItem from="1610048932689" duration="57498000" />
       <workItem from="1610376184728" duration="289000" />
-      <workItem from="1610376509200" duration="11434000" />
+      <workItem from="1610376509200" duration="15842000" />
+      <workItem from="1610442335884" duration="34224000" />
+      <workItem from="1610613012351" duration="3924000" />
+      <workItem from="1610632800898" duration="4064000" />
     </task>
     <task id="LOCAL-00001" summary="dev: Make migrate and create model">
       <created>1610059964259</created>
@@ -274,11 +314,18 @@
       <option name="project" value="LOCAL" />
       <updated>1610228123166</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dev: include lodash for working json">
+      <created>1610403158168</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610403158168</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81959000" />
+    <option name="totallyTimeSpent" value="128579000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,27 +340,27 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49723756" visible="true" weight="0.16487648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49502763" visible="true" weight="0.20837809" />
       <window_info id="Structure" order="1" sideWeight="0.50276244" side_tool="true" weight="0.15735768" />
-      <window_info id="npm" order="2" sideWeight="0.50276244" side_tool="true" weight="0.12996778" />
+      <window_info id="npm" order="2" sideWeight="0.5049724" side_tool="true" weight="0.1783029" />
       <window_info id="Favorites" order="3" sideWeight="0.50276244" side_tool="true" weight="0.15735768" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32928178" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32928178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32928178" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928178" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32928178" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989259" weight="0.19337016" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50107414" side_tool="true" weight="0.5038674" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50107414" side_tool="true" weight="0.5038674" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989259" visible="true" weight="0.19889502" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
       <window_info anchor="right" id="Translation Assistant" order="4" weight="0.32975295" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.2792696" />
+      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.26745436" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,233 +372,10 @@
     <MESSAGE value="dev: change migrations and models" />
     <MESSAGE value="dev: make seeder for Group" />
     <MESSAGE value="dev: add get groups lists in controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev: add get groups lists in controller" />
+    <MESSAGE value="dev: include lodash for working json" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev: include lodash for working json" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Models/Teacher/Teacher.ts" />
-    <entry file="file://D:/Games/laragon/www/rpps2019/database/seeds/seed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27514" />
-      </provider>
-    </entry>
-    <entry file="file://D:/Games/laragon/www/rpps2019/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../timetable/app/json-server/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="29" column="6" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="e#706#40401#0" />
-            <element signature="e#947#2714#0" />
-            <element signature="e#40414#56334#0" />
-            <element signature="e#56349#64231#0" />
-            <element signature="e#64247#67983#0" />
-            <element signature="e#67997#68376#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/providers/AppProvider.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../timetable/app/json-server/fake/groups">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3692">
-          <caret line="142" column="17" lean-forward="true" selection-start-line="142" selection-start-column="17" selection-end-line="142" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/1610052291208_entities_for_schedule_and_exams.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/knex/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="1739" column="4" selection-start-line="1739" selection-start-column="4" selection-end-line="1739" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/Exam.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="41" lean-forward="true" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/1610053128870_exams.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/1610053128870_schedules.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/1609970949286_groups_and_other_entities.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/jsongenerator">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-          <folding>
-            <element signature="e#1#3164#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndOtherTableSeeder.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <element signature="e#688#1577#0" />
-            <element signature="e#1627#2617#0" />
-            <element signature="e#2670#2833#0" />
-            <element signature="e#2879#3737#0" />
-            <element signature="e#3937#4795#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Group/TrainingForm.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/knex/lib/dialects/mysql/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="127" column="11" selection-start-line="127" selection-start-column="11" selection-end-line="127" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/start/routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/Pool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="213" column="9" selection-start-line="213" selection-start-column="9" selection-end-line="213" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/querybuilder.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="295" column="14" selection-start-line="295" selection-start-column="14" selection-end-line="295" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Group/TrainingType.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/relations.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="359" column="8" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Group/Department.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Group/Faculty.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Group/Group.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/events.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/env.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/model.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5101">
-          <caret line="219" column="10" lean-forward="true" selection-start-line="219" selection-start-column="10" selection-end-line="219" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lodash.toarray/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/knex/lib/client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -644,36 +468,294 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controllers/Http/UsersController.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/lodash/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/1610053128870_schedules.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Group/Faculty.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/Lesson.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/LessonType.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/Classroom.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/Day.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Teacher/AcademicDegree.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Teacher/Teacher.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Group/TrainingType.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Group/TrainingForm.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/relations.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/orm.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#45#205#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/LessonNumber.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Group/Group.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Schedule.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Http/SchedulesController.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Http/UsersController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="e#71#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts">
+    <entry file="file://$PROJECT_DIR$/database/jsongenerator" />
+    <entry file="file://$PROJECT_DIR$/database/Fake/FakeData.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="312">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/lodash/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/database.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        <state relative-caret-position="599">
+          <caret line="663" lean-forward="true" selection-start-line="663" selection-end-line="663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/model.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="634" column="5" lean-forward="true" selection-start-line="634" selection-start-column="5" selection-end-line="634" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Fake/fake_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6826">
+          <caret line="358" column="24" lean-forward="true" selection-start-line="358" selection-start-column="24" selection-end-line="358" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder1.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="25" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/ScheduleRelations.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+        <state relative-caret-position="464">
+          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>

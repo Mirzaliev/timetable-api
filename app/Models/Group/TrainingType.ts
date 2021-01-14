@@ -1,4 +1,4 @@
-import { BaseModel, belongsTo, column, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, hasMany, column, HasMany } from '@ioc:Adonis/Lucid/Orm'
 import Group from 'App/Models/Group/Group'
 
 export default class TrainingType extends BaseModel {
@@ -8,6 +8,6 @@ export default class TrainingType extends BaseModel {
   @column()
   public name: string
 
-  @belongsTo(() => Group)
-  public group: BelongsTo<typeof Group>
+  @hasMany(() => Group)
+  public group: HasMany<typeof Group>
 }

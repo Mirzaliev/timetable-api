@@ -1,4 +1,5 @@
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, hasMany, column, HasMany } from '@ioc:Adonis/Lucid/Orm'
+import Schedule from 'App/Models/Schedule'
 
 export default class SubGroup extends BaseModel {
   @column({ isPrimary: true })
@@ -6,4 +7,7 @@ export default class SubGroup extends BaseModel {
 
   @column()
   public name: string
+
+  @hasMany(() => Schedule)
+  public schedule: HasMany<typeof Schedule>
 }

@@ -5,7 +5,7 @@ export default class Teachers extends BaseSchema {
     this.schema.createTable('academic_degrees', (table) => {
       table.increments('id')
       table.string('abbreviation', 15).unique().notNullable()
-      table.string('name', 20).notNullable()
+      table.string('name', 40).notNullable()
     })
     this.schema.createTable('teachers', (table) => {
       table.increments('id')

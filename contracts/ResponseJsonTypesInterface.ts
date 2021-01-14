@@ -6,14 +6,17 @@ export interface GroupsList {
   trainingTypeId: number
   abbreviation: string
 }
-
+export interface CourseWithGroups {
+  course: number
+  groups: Array<GroupsList>
+}
 export interface FacultyGroupsList {
   id: number
   abbreviation: string
   name: string
-  fullTime: Array<GroupsList>
-  partTime: Array<GroupsList>
-  fullAndPartTime: Array<GroupsList>
+  fullTime: Array<CourseWithGroups>
+  partTime: Array<CourseWithGroups>
+  fullAndPartTime: Array<CourseWithGroups>
 }
 
 export enum TrainingForms {

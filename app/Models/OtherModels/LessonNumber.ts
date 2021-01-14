@@ -1,13 +1,16 @@
-import { DateTime } from 'luxon'
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, hasMany, column, HasMany } from '@ioc:Adonis/Lucid/Orm'
+import Schedule from 'App/Models/Schedule'
 
 export default class LessonNumber extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
-  @column.dateTime({ autoCreate: true })
-  public createdAt: DateTime
+  @column()
+  public number: number
 
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
-  public updatedAt: DateTime
+  @column()
+  public startAndEndTime: string
+
+  @hasMany(() => Schedule)
+  public schedule: HasMany<typeof Schedule>
 }

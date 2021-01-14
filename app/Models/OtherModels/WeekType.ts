@@ -1,13 +1,13 @@
-import { DateTime } from 'luxon'
-import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, hasMany, column, HasMany } from '@ioc:Adonis/Lucid/Orm'
+import Schedule from 'App/Models/Schedule'
 
 export default class WeekType extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
-  @column.dateTime({ autoCreate: true })
-  public createdAt: DateTime
+  @column()
+  public name: string
 
-  @column.dateTime({ autoCreate: true, autoUpdate: true })
-  public updatedAt: DateTime
+  @hasMany(() => Schedule)
+  public schedule: HasMany<typeof Schedule>
 }
