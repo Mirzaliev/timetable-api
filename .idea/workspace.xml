@@ -2,33 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1991ab6f-5e25-47ca-8d62-dc452c0844e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/OtherModels/LessonType.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Teacher/AcademicDegree.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Teacher/Teacher.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Fake/FakeData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/Fake/fake_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts/Serialize/ScheduleSerialize.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Group/Group.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group/Group.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/Classroom.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/Classroom.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/Day.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/Day.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/Lesson.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/Lesson.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/LessonNumber.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/LessonNumber.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/LessonsType.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/SubGroup.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Schedule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Schedule.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/ResponseJson.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ResponseJson.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/jsongenerator" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/1610052291208_teachers_and_other_entities.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/GroupsAndOtherTableSeeder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/start/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/start/routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/Fake/fake_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/database/Fake/fake_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,36 +27,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts">
+        <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="52">
+              <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts">
+        <entry file="file://$PROJECT_DIR$/contracts/Serialize/ScheduleSerialize.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="442">
+              <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#1444#2244#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
+        <entry file="file://$PROJECT_DIR$/app/Controllers/Http/UsersController.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+            <state relative-caret-position="546">
+              <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#71#117#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,12 +78,16 @@
       <find>GROUP</find>
       <find>'</find>
       <find>_i</find>
+      <find>department_id</find>
+      <find>weekType</find>
     </findStrings>
     <replaceStrings>
       <replace>abbreviation</replace>
       <replace>name</replace>
       <replace>&quot;</replace>
       <replace>I</replace>
+      <replace>departmentId</replace>
+      <replace>weekTypeId</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\Arsen\timetable-api\node_modules</dir>
@@ -118,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/1610051176515_sub_groups.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/SubGroup.ts" />
         <option value="$PROJECT_DIR$/database/migrations/1610052291208_teachers.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/Chair.ts" />
@@ -156,19 +137,20 @@
         <option value="$PROJECT_DIR$/app/Models/Group/TrainingType.ts" />
         <option value="$PROJECT_DIR$/app/Models/Group/TrainingForm.ts" />
         <option value="$PROJECT_DIR$/app/Models/OtherModels/WeekType.ts" />
-        <option value="$PROJECT_DIR$/app/Models/Schedule.ts" />
-        <option value="$PROJECT_DIR$/app/Models/Group/Group.ts" />
         <option value="$PROJECT_DIR$/contracts/ScheduleRelations.ts" />
-        <option value="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" />
-        <option value="$PROJECT_DIR$/contracts/ResponseJson.ts" />
         <option value="$PROJECT_DIR$/database/fake_data.json" />
         <option value="$PROJECT_DIR$/database/FakeData.ts" />
-        <option value="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" />
         <option value="$PROJECT_DIR$/database/Fake/FakeData.ts" />
-        <option value="$PROJECT_DIR$/database/Fake/fake_data.json" />
         <option value="$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts" />
         <option value="$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder1.ts" />
+        <option value="$PROJECT_DIR$/app/Models/Group/Group.ts" />
         <option value="$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts" />
+        <option value="$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts" />
+        <option value="$PROJECT_DIR$/database/Fake/fake_data.json" />
+        <option value="$PROJECT_DIR$/app/Models/Schedule.ts" />
+        <option value="$PROJECT_DIR$/app/Controllers/Http/UsersController.ts" />
+        <option value="$PROJECT_DIR$/contracts/ResponseJson.ts" />
+        <option value="$PROJECT_DIR$/contracts/Serialize/ScheduleSerialize.ts" />
       </list>
     </option>
   </component>
@@ -184,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,15 +173,11 @@
               <item name="timetable-api" type="b2602c69:ProjectViewProjectNode" />
               <item name="timetable-api" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="timetable-api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timetable-api" type="462c0819:PsiDirectoryNode" />
-              <item name="contracts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +254,10 @@
       <workItem from="1610376509200" duration="15842000" />
       <workItem from="1610442335884" duration="34224000" />
       <workItem from="1610613012351" duration="3924000" />
-      <workItem from="1610632800898" duration="4064000" />
+      <workItem from="1610632800898" duration="4435000" />
+      <workItem from="1610655402754" duration="323000" />
+      <workItem from="1610655758359" duration="9800000" />
+      <workItem from="1610744652137" duration="11414000" />
     </task>
     <task id="LOCAL-00001" summary="dev: Make migrate and create model">
       <created>1610059964259</created>
@@ -321,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1610403158168</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dev: change fake data and create serialize schedule dev: change fake data and create serialize schedule response  response">
+      <created>1610655231725</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610655231725</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128579000" />
+    <option name="totallyTimeSpent" value="150487000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +327,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49502763" visible="true" weight="0.20837809" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49502763" visible="true" weight="0.1358754" />
       <window_info id="Structure" order="1" sideWeight="0.50276244" side_tool="true" weight="0.15735768" />
       <window_info id="npm" order="2" sideWeight="0.5049724" side_tool="true" weight="0.1783029" />
       <window_info id="Favorites" order="3" sideWeight="0.50276244" side_tool="true" weight="0.15735768" />
@@ -354,13 +341,13 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32928178" />
       <window_info anchor="bottom" id="TypeScript" order="8" weight="0.32928178" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50107414" side_tool="true" weight="0.5038674" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989259" visible="true" weight="0.19889502" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4989259" weight="0.3447514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Word Book" order="3" side_tool="true" />
       <window_info anchor="right" id="Translation Assistant" order="4" weight="0.32975295" />
-      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.26745436" />
+      <window_info anchor="right" id="Run" order="5" visible="true" weight="0.31095597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,16 +360,10 @@
     <MESSAGE value="dev: make seeder for Group" />
     <MESSAGE value="dev: add get groups lists in controller" />
     <MESSAGE value="dev: include lodash for working json" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev: include lodash for working json" />
+    <MESSAGE value="dev: change fake data and create serialize schedule dev: change fake data and create serialize schedule response  response" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev: change fake data and create serialize schedule dev: change fake data and create serialize schedule response  response" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/knex/lib/client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2964" />
@@ -465,13 +446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="33" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/lodash/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -637,44 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Group/Group.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Schedule.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="57" column="3" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#89#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controllers/Http/SchedulesController.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controllers/Http/UsersController.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="e#71#117#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/jsongenerator" />
-    <entry file="file://$PROJECT_DIR$/database/Fake/FakeData.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@adonisjs/lucid/build/adonis-typings/database.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
@@ -689,40 +629,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/Fake/fake_data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6826">
-          <caret line="358" column="24" lean-forward="true" selection-start-line="358" selection-start-column="24" selection-end-line="358" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder1.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="25" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/ScheduleRelations.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder1.ts" />
+    <entry file="file://$PROJECT_DIR$/contracts/ScheduleRelations.ts" />
     <entry file="file://$PROJECT_DIR$/contracts/ResponseJsonTypesInterface.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -730,32 +638,197 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
+    <entry file="file://$PROJECT_DIR$/app/Models/Group/Group.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="96" column="24" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="24" />
+        <state relative-caret-position="-468">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Fake/FakeData.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
-            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/Fake/fake_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1130">
+          <caret line="896" column="17" lean-forward="true" selection-start-line="896" selection-start-column="17" selection-end-line="896" selection-end-column="17" />
+          <folding>
+            <element signature="e#16#822#0" />
+            <element signature="e#23#119#0" />
+            <element signature="e#125#201#0" />
+            <element signature="e#207#325#0" />
+            <element signature="e#331#414#0" />
+            <element signature="e#420#503#0" />
+            <element signature="e#509#585#0" />
+            <element signature="e#591#680#0" />
+            <element signature="e#686#759#0" />
+            <element signature="e#765#837#0" />
+            <element signature="e#859#1985#0" />
+            <element signature="e#865#960#0" />
+            <element signature="e#966#1075#0" />
+            <element signature="e#1081#1181#0" />
+            <element signature="e#1187#1305#0" />
+            <element signature="e#1311#1434#0" />
+            <element signature="e#1440#1562#0" />
+            <element signature="e#1568#1685#0" />
+            <element signature="e#1691#1785#0" />
+            <element signature="e#1791#1874#0" />
+            <element signature="e#1880#1981#0" />
+            <element signature="e#2006#2134#0" />
+            <element signature="e#2012#2047#0" />
+            <element signature="e#2053#2089#0" />
+            <element signature="e#2095#2130#0" />
+            <element signature="e#2155#2273#0" />
+            <element signature="e#2161#2190#0" />
+            <element signature="e#2196#2227#0" />
+            <element signature="e#2233#2269#0" />
+            <element signature="e#2291#2362#0" />
+            <element signature="e#2297#2324#0" />
+            <element signature="e#2330#2358#0" />
+            <element signature="e#2380#2548#0" />
+            <element signature="e#2386#2421#0" />
+            <element signature="e#2427#2462#0" />
+            <element signature="e#2468#2503#0" />
+            <element signature="e#2509#2544#0" />
+            <element signature="e#2563#3247#0" />
+            <element signature="e#2569#2621#0" />
+            <element signature="e#2627#2682#0" />
+            <element signature="e#2688#2755#0" />
+            <element signature="e#2761#2819#0" />
+            <element signature="e#2825#2874#0" />
+            <element signature="e#2880#2967#0" />
+            <element signature="e#2973#3034#0" />
+            <element signature="e#3040#3116#0" />
+            <element signature="e#3122#3201#0" />
+            <element signature="e#3207#3243#0" />
+            <element signature="e#3269#3647#0" />
+            <element signature="e#3275#3343#0" />
+            <element signature="e#3349#3418#0" />
+            <element signature="e#3424#3493#0" />
+            <element signature="e#3499#3568#0" />
+            <element signature="e#3574#3643#0" />
+            <element signature="e#3649#3718#0" />
+            <element signature="e#3665#3837#0" />
+            <element signature="e#3671#3706#0" />
+            <element signature="e#3712#3748#0" />
+            <element signature="e#3754#3790#0" />
+            <element signature="e#3796#3833#0" />
+            <element signature="e#3849#4077#0" />
+            <element signature="e#3855#3890#0" />
+            <element signature="e#3896#3927#0" />
+            <element signature="e#3933#3962#0" />
+            <element signature="e#3968#3999#0" />
+            <element signature="e#4005#4036#0" />
+            <element signature="e#4042#4073#0" />
+            <element signature="e#4097#4252#0" />
+            <element signature="e#4103#4133#0" />
+            <element signature="e#4139#4171#0" />
+            <element signature="e#4177#4213#0" />
+            <element signature="e#4219#4248#0" />
+            <element signature="e#4276#4568#0" />
+            <element signature="e#4282#4346#0" />
+            <element signature="e#4352#4412#0" />
+            <element signature="e#4418#4495#0" />
+            <element signature="e#4501#4564#0" />
+            <element signature="e#4584#6016#0" />
+            <element signature="e#4590#4673#0" />
+            <element signature="e#4679#4765#0" />
+            <element signature="e#4771#4852#0" />
+            <element signature="e#4858#4945#0" />
+            <element signature="e#4951#5034#0" />
+            <element signature="e#5040#5120#0" />
+            <element signature="e#5126#5211#0" />
+            <element signature="e#5217#5298#0" />
+            <element signature="e#5304#5387#0" />
+            <element signature="e#5393#5479#0" />
+            <element signature="e#5485#5566#0" />
+            <element signature="e#5572#5659#0" />
+            <element signature="e#5665#5748#0" />
+            <element signature="e#5754#5834#0" />
+            <element signature="e#5840#5925#0" />
+            <element signature="e#5931#6012#0" />
+            <element signature="e#6030#6895#0" />
+            <element signature="e#6036#6173#0" />
+            <element signature="e#6179#6317#0" />
+            <element signature="e#6323#6460#0" />
+            <element signature="e#6466#6604#0" />
+            <element signature="e#6610#6747#0" />
+            <element signature="e#6753#6891#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleRelatedTablesSeeder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/seeders/ScheduleSeeder.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="416">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeders/GroupsAndRelatedTableSeeder.ts">
+    <entry file="file://$PROJECT_DIR$/app/Models/Schedule.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="52">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/lodash/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="39" column="34" lean-forward="true" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controllers/Http/UsersController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#71#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/ResponseJson.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts/Serialize/ScheduleSerialize.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="112" column="5" lean-forward="true" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding>
+            <element signature="e#1444#2244#0" />
           </folding>
         </state>
       </provider>

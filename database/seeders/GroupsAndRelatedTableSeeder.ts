@@ -7,12 +7,7 @@ import Group from 'App/Models/Group/Group'
 import FakeData from 'Database/Fake/FakeData'
 
 export default class GroupsAndRelatedTableSeeder extends BaseSeeder {
-  public static async run() {
-    await Group.truncate()
-    await TrainingForm.truncate()
-    await TrainingType.truncate()
-    await Department.truncate()
-    await Faculty.truncate()
+  public async run() {
     await Faculty.updateOrCreateMany('abbreviation', FakeData.get('faculties'))
     await Department.updateOrCreateMany('abbreviation', FakeData.get('department'))
     await TrainingType.updateOrCreateMany('name', FakeData.get('trainingTypes'))

@@ -1,4 +1,4 @@
-import { BaseModel, belongsTo, column, BelongsTo, computed } from '@ioc:Adonis/Lucid/Orm'
+import { BaseModel, belongsTo, column, BelongsTo } from '@ioc:Adonis/Lucid/Orm'
 import { DateTime } from 'luxon'
 import WeekType from 'App/Models/OtherModels/WeekType'
 import Group from 'App/Models/Group/Group'
@@ -47,45 +47,45 @@ export default class Schedule extends BaseModel {
   @column()
   public subGroupId: number
 
-  @computed()
-  public get _weekTypeName() {
-    return this.weekType.name
-  }
-
-  @computed()
-  public get _lessonName() {
-    return this.lesson.name
-  }
-
-  @computed()
-  public get _lessonNumber() {
-    return this.lessonNumber.number
-  }
-
-  @computed()
-  public get _lessonTime() {
-    return this.lessonNumber.startAndEndTime
-  }
-
-  @computed()
-  public get _lessonType() {
-    return this.lessonType.name
-  }
-
-  @computed()
-  public get _lessonDay() {
-    return this.day.name
-  }
-
-  @computed()
-  public get _classroom() {
-    return this.classroom.abbreviation
-  }
-
-  @computed()
-  public get _teacher() {
-    return this.teacher.degree.abbreviation + ' ' + this.teacher.fullName
-  }
+  // @computed()
+  // public get _weekTypeName() {
+  //   return this.weekType.name
+  // }
+  //
+  // @computed()
+  // public get _lessonName() {
+  //   return this.lesson.name
+  // }
+  //
+  // @computed()
+  // public get _lessonNumber() {
+  //   return this.lessonNumber.number
+  // }
+  //
+  // @computed()
+  // public get _lessonTime() {
+  //   return this.lessonNumber.startAndEndTime
+  // }
+  //
+  // @computed()
+  // public get _lessonType() {
+  //   return this.lessonType.name
+  // }
+  //
+  // @computed()
+  // public get _lessonDay() {
+  //   return this.day.name
+  // }
+  //
+  // @computed()
+  // public get _classroom() {
+  //   return this.classroom.abbreviation
+  // }
+  //
+  // @computed()
+  // public get _teacher() {
+  //   return this.teacher.degree.abbreviation + ' ' + this.teacher.fullName
+  // }
 
   @belongsTo(() => Group)
   public group: BelongsTo<typeof Group>

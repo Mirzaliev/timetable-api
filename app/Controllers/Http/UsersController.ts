@@ -18,12 +18,13 @@ export default class UsersController {
 
   public async schedule() {
     const group = await Group.query()
-      .where('id', 2)
+      .where('id', 1)
       .preload('trainingType')
       .preload('trainingForm')
       .preload('schedule', (schedule) => {
         schedule
           .whereNull('exam')
+          .andWhere('weekTypeId', 1)
           .preload('weekType')
           .preload('lesson')
           .preload('lessonNumber')

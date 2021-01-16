@@ -1,366 +1,939 @@
 {
-  "faculties":[
+  "faculties": [
     {
-      "abbreviation":"МиП",
-      "name":"Факультет Менеджмента и предпринимательства"
+      "abbreviation": "МиП",
+      "name": "Факультет Менеджмента и предпринимательства"
     },
     {
-      "abbreviation":"ТД",
-      "name":"Факультет Торгового дела"
+      "abbreviation": "ТД",
+      "name": "факультет торгового дела"
     },
     {
-      "abbreviation":"КТиИБ",
-      "name":"Факультет Компьютерных технологий и информационной безопасности"
+      "abbreviation": "КТиИБ",
+      "name": "Факультет Компьютерных технологий и информационной безопасности"
     },
     {
-      "abbreviation":"УЭФ",
-      "name":"Учетно-экономический факультет"
+      "abbreviation": "УЭФ",
+      "name": "Учетно-экономический факультет"
     },
     {
-      "abbreviation":"ЭиФ",
-      "name":"Факультет Экономики и финансов"
+      "abbreviation": "ЭиФ",
+      "name": "Факультет Экономики и финансов"
     },
     {
-      "abbreviation":"ЮрФак",
-      "name":"Юридический факультет"
+      "abbreviation": "ЮрФак",
+      "name": "Юридический факультет"
     },
     {
-      "abbreviation":"ЛиЖ",
-      "name":"Факультет Лингвистики и журналистики"
+      "abbreviation": "ЛиЖ",
+      "name": "Факультет Лингвистики и журналистики"
     },
     {
-      "abbreviation":"ИМ",
-      "name":"Институт Магистратуры"
+      "abbreviation": "ИМ",
+      "name": "Институт Магистратуры"
     },
     {
-      "abbreviation":"ИА",
-      "name":"Институт Аспирантуры"
+      "abbreviation": "ИА",
+      "name": "Институт Аспирантуры"
     }
   ],
-  "department":[
+  "department": [
     {
-      "facultyId":1,
-      "abbreviation":"ФМ",
-      "name":"Финансовый менеджмент"
+      "facultyId": 1,
+      "abbreviation": "ФМ",
+      "name": "Финансовый менеджмент"
     },
     {
-      "facultyId":1,
-      "abbreviation":"ОиСМ",
-      "name":"Общий и стратегический менеджмент"
+      "facultyId": 1,
+      "abbreviation": "ОиСМ",
+      "name": "Общий и стратегический менеджмент"
     },
     {
-      "facultyId":2,
-      "abbreviation":"ФиК",
-      "name":"Философии и культурологии"
+      "facultyId": 2,
+      "abbreviation": "ФиК",
+      "name": "Философии и культурологии"
     },
     {
-      "facultyId":2,
-      "abbreviation":"МТиТД",
-      "name":"Международной торговли и таможенного дела"
+      "facultyId": 2,
+      "abbreviation": "МТиТД",
+      "name": "Международной торговли и таможенного дела"
     },
     {
-      "facultyId":3,
-      "abbreviation":"ИСиПИ",
-      "name":"Информационных систем и прикладной информатики"
+      "facultyId": 3,
+      "abbreviation": "ИСиПИ",
+      "name": "Информационных систем и прикладной информатики"
     },
     {
-      "facultyId":3,
-      "abbreviation":"ИСиЗИ",
-      "name":"Информационных технологий и защиты информации"
+      "facultyId": 3,
+      "abbreviation": "ИСиЗИ",
+      "name": "Информационных технологий и защиты информации"
     },
     {
-      "facultyId":4,
-      "abbreviation":"СЭиОР",
-      "name":"Статистики, эконометрики и оценки рисков"
+      "facultyId": 4,
+      "abbreviation": "СЭиОР",
+      "name": "Статистики, эконометрики и оценки рисков"
     },
     {
-      "facultyId":4,
-      "abbreviation":"БУ",
-      "name":"Бухгалтерского учета"
+      "facultyId": 4,
+      "abbreviation": "БУ",
+      "name": "Бухгалтерского учета"
     },
     {
-      "facultyId":8,
-      "abbreviation":"Экономика",
-      "name":"Экономика"
+      "facultyId": 8,
+      "abbreviation": "ЭК",
+      "name": "Экономика"
     },
     {
-      "facultyId":9,
-      "abbreviation":"ИБ",
-      "name":"Информационная безопасность"
+      "facultyId": 9,
+      "abbreviation": "ИБ",
+      "name": "Информационная безопасность"
     }
   ],
-  "trainingTypes":[
+  "trainingTypes": [
     {
-      "name":"Бакалавриат"
+      "name": "Бакалавриат"
     },
     {
-      "name":"Магистратура"
+      "name": "Магистратура"
     },
     {
-      "name":"Аспирантура"
+      "name": "Аспирантура"
     }
   ],
-  "trainingForms":[
+  "trainingForms": [
     {
-      "name":"ОЧНАЯ"
+      "name": "ОЧНАЯ"
     },
     {
-      "name":"ЗАОЧНАЯ"
+      "name": "ЗАОЧНАЯ"
     },
     {
-      "name":"ОЧНО-ЗАОЧНАЯ"
+      "name": "ОЧНО-ЗАОЧНАЯ"
     }
   ],
-  "week_types":[
+  "week_types": [
     {
-      "name":"odd"
+      "name": "odd"
     },
     {
-      "name":"even"
+      "name": "even"
     }
   ],
-  "sub_groups":[
+  "sub_groups": [
     {
-      "name":"подгруппа 1"
+      "name": "подгруппа 1"
     },
     {
-      "name":"подгруппа 2"
+      "name": "подгруппа 2"
     },
     {
-      "name":"подгруппа 3"
+      "name": "подгруппа 3"
     },
     {
-      "name":"подгруппа 4"
+      "name": "подгруппа 4"
     }
   ],
-  "lessons":[
+  "lessons": [
     {
-      "name":"Английский язык и литература"
+      "name": "Английский язык и литература"
     },
     {
-      "name":"Аэрокосмическое приборостроение"
+      "name": "Аэрокосмическое приборостроение"
     },
     {
-      "name":"Разработка нефтяных и газовых месторождений"
+      "name": "Разработка нефтяных и газовых месторождений"
     },
     {
-      "name":"Электроэнергетика и электротехника"
+      "name": "Электроэнергетика и электротехника"
     },
     {
-      "name":"Информационные технологии"
+      "name": "Информационные технологии"
     },
     {
-      "name":"Элективные дисциплины ( модули) по физической культуре и спорту"
+      "name": "Элективные дисциплины ( модули) по физической культуре и спорту"
     },
     {
-      "name":"Деловые переговоры в торговом бизнесе"
+      "name": "Деловые переговоры в торговом бизнесе"
     },
     {
-      "name":"Организация, технология и проектирование предприятий"
+      "name": "Организация, технология и проектирование предприятий"
     },
     {
-      "name":"Моделирование бизнес- процессов в торговой деятельности"
+      "name": "Моделирование бизнес- процессов в торговой деятельности"
     },
     {
-      "name":"Эконометрика"
+      "name": "Эконометрика"
     }
   ],
-  "lesson_numbers":[
+  "lesson_numbers": [
     {
-      "number":"1",
-      "startAndEndTime":"8:30 - 10:00"
+      "number": "1",
+      "startAndEndTime": "8:30 - 10:00"
     },
     {
-      "number":"2",
-      "startAndEndTime":"10:10 - 11:40"
+      "number": "2",
+      "startAndEndTime": "10:10 - 11:40"
     },
     {
-      "number":"3",
-      "startAndEndTime":"11:50 - 13:10"
+      "number": "3",
+      "startAndEndTime": "11:50 - 13:10"
     },
     {
-      "number":"4",
-      "startAndEndTime":"13:20 - 15:30"
+      "number": "4",
+      "startAndEndTime": "13:20 - 15:30"
     },
     {
-      "number":"5",
-      "startAndEndTime":"15:40 - 17:10"
+      "number": "5",
+      "startAndEndTime": "15:40 - 17:10"
+    },
+    {
+      "number": "6",
+      "startAndEndTime": "17:20 - 18:40"
     }
   ],
-  "classrooms":[
+  "classrooms": [
     {
-      "abbreviation":"301"
+      "abbreviation": "301"
     },
     {
-      "abbreviation":"302a"
+      "abbreviation": "302a"
     },
     {
-      "abbreviation":"a301"
+      "abbreviation": "a301"
     },
     {
-      "abbreviation":"301aв"
+      "abbreviation": "301aв"
     }
   ],
-  "days":[
+  "days": [
     {
-      "name":"Понедельник"
+      "name": "Понедельник"
     },
     {
-      "name":"Вторник"
+      "name": "Вторник"
     },
     {
-      "name":"Среда"
+      "name": "Среда"
     },
     {
-      "name":"Четверг"
+      "name": "Четверг"
     },
     {
-      "name":"Пятница"
+      "name": "Пятница"
     },
     {
-      "name":"Суббота"
+      "name": "Суббота"
     }
   ],
-  "lesson_types":[
+  "lesson_types": [
     {
-      "name":"Лекция"
+      "name": "Лекция"
     },
     {
-      "name":"Практика"
+      "name": "Практика"
     },
     {
-      "name":"Лабораторная"
+      "name": "Лабораторная"
     },
     {
-      "name":"Зачет"
+      "name": "Зачет"
     }
   ],
-  "academic_degrees":[
+  "academic_degrees": [
     {
-      "abbreviation":"проф.",
-      "name":"Профессор"
+      "abbreviation": "проф.",
+      "name": "Профессор"
     },
     {
-      "abbreviation":"доц.",
-      "name":"Доцент"
+      "abbreviation": "доц.",
+      "name": "Доцент"
     },
     {
-      "abbreviation":"ст.пр.",
-      "name":"Старший преподаватель"
+      "abbreviation": "ст.пр.",
+      "name": "Старший преподаватель"
     },
     {
-      "abbreviation":"асс.",
-      "name":"Ассистент"
+      "abbreviation": "асс.",
+      "name": "Ассистент"
     }
   ],
-  "teachers":[
+  "teachers": [
     {
-      "fullName":"Ефимова Елена Владимировна",
-      "academicDegreeId":2
+      "fullName": "Ефимова Елена Владимировна",
+      "academicDegreeId": 2
     },
     {
-      "fullName":"Гончарова Светлана Николаевна",
-      "academicDegreeId":1
+      "fullName": "Гончарова Светлана Николаевна",
+      "academicDegreeId": 1
     },
     {
-      "fullName":"Стрюков Михаил Борисович",
-      "academicDegreeId":3
+      "fullName": "Стрюков Михаил Борисович",
+      "academicDegreeId": 3
     },
     {
-      "fullName":"Казанская Евгения Владимировна",
-      "academicDegreeId":4
+      "fullName": "Казанская Евгения Владимировна",
+      "academicDegreeId": 4
     },
     {
-      "fullName":"Напалкова Ирина Георгиевна",
-      "academicDegreeId":2
+      "fullName": "Напалкова Ирина Георгиевна",
+      "academicDegreeId": 2
     },
     {
-      "fullName":"Улезько Сергей Иванович",
-      "academicDegreeId":1
+      "fullName": "Улезько Сергей Иванович",
+      "academicDegreeId": 1
     },
     {
-      "fullName":"Наухацкий Виталий Васильевич",
-      "academicDegreeId":2
+      "fullName": "Наухацкий Виталий Васильевич",
+      "academicDegreeId": 2
     },
     {
-      "fullName":"Баринов Эмиль Эдуардович",
-      "academicDegreeId":3
+      "fullName": "Баринов Эмиль Эдуардович",
+      "academicDegreeId": 3
     },
     {
-      "fullName":"Ефимова Елена Владимировна",
-      "academicDegreeId":1
+      "fullName": "Ефимова Елена Владимировна",
+      "academicDegreeId": 1
     },
     {
-      "fullName":"Гончарова Светлана Николаевна",
-      "academicDegreeId":1
+      "fullName": "Гончарова Светлана Николаевна",
+      "academicDegreeId": 1
     },
     {
-      "fullName":"Стрюков Михаил Борисович",
-      "academicDegreeId":4
+      "fullName": "Стрюков Михаил Борисович",
+      "academicDegreeId": 4
     },
     {
-      "fullName":"Казанская Евгения Владимировна",
-      "academicDegreeId":2
+      "fullName": "Казанская Евгения Владимировна",
+      "academicDegreeId": 2
     },
     {
-      "fullName":"Напалкова Ирина Георгиевна",
-      "academicDegreeId":3
+      "fullName": "Напалкова Ирина Георгиевна",
+      "academicDegreeId": 3
     },
     {
-      "fullName":"Улезько Сергей Иванович",
-      "academicDegreeId":2
+      "fullName": "Улезько Сергей Иванович",
+      "academicDegreeId": 2
     },
     {
-      "fullName":"Наухацкий Виталий Васильевич",
-      "academicDegreeId":1
+      "fullName": "Наухацкий Виталий Васильевич",
+      "academicDegreeId": 1
     },
     {
-      "fullName":"Баринов Эмиль Эдуардович",
-      "academicDegreeId":1
+      "fullName": "Баринов Эмиль Эдуардович",
+      "academicDegreeId": 1
     }
   ],
-  "groups":[
+  "groups": [
     {
-      "department_id":3,
-      "course":1,
-      "trainingTypeId":1,
-      "trainingFormId":1,
-      "abbreviation":"ИБ-311"
+      "department_id": 3,
+      "course": 1,
+      "trainingTypeId": 1,
+      "trainingFormId": 1,
+      "abbreviation": "ИБ-311"
     },
     {
-      "department_id":3,
-      "trainingTypeId":1,
-      "course":2,
-      "trainingFormId":2,
-      "abbreviation":"ИБZ-321"
+      "department_id": 3,
+      "trainingTypeId": 1,
+      "course": 2,
+      "trainingFormId": 2,
+      "abbreviation": "ИБZ-321"
     },
     {
-      "department_id":8,
-      "trainingTypeId":2,
-      "course":1,
-      "trainingFormId":1,
-      "abbreviation":"ЭК-811"
+      "department_id": 8,
+      "trainingTypeId": 2,
+      "course": 1,
+      "trainingFormId": 1,
+      "abbreviation": "ЭК-811"
     },
     {
-      "department_id":8,
-      "trainingTypeId":2,
-      "course":1,
-      "trainingFormId":2,
-      "abbreviation":"ЭКZ-811"
+      "department_id": 8,
+      "trainingTypeId": 2,
+      "course": 1,
+      "trainingFormId": 2,
+      "abbreviation": "ЭКZ-811"
     },
     {
-      "department_id":9,
-      "trainingTypeId":3,
-      "course":1,
-      "trainingFormId":1,
-      "abbreviation":"ИБ-911"
+      "department_id": 9,
+      "trainingTypeId": 3,
+      "course": 1,
+      "trainingFormId": 1,
+      "abbreviation": "ИБ-911"
     },
     {
-      "department_id":9,
-      "trainingTypeId":3,
-      "course":1,
-      "trainingFormId":2,
-      "abbreviation":"ИБZ-911"
+      "department_id": 9,
+      "trainingTypeId": 3,
+      "course": 1,
+      "trainingFormId": 2,
+      "abbreviation": "ИБZ-911"
+    }
+  ],
+  "schedules_ИБ-311": [
+    {
+      "weekTypeId": 1,
+      "dayId": 1,
+      "lessonNumberId": 1,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 1,
+      "lessonNumberId": 2,
+      "lessonId": 3,
+      "lessonTypeId": 4,
+      "classroomId": 1,
+      "teacherId": 7
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 2,
+      "lessonNumberId": 1,
+      "lessonId": 1,
+      "lessonTypeId": 3,
+      "classroomId": 4,
+      "teacherId": 8
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 2,
+      "lessonNumberId": 3,
+      "lessonId": 8,
+      "lessonTypeId": 2,
+      "classroomId": 3,
+      "teacherId": 7
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 2,
+      "lessonNumberId": 5,
+      "lessonId": 1,
+      "lessonTypeId": 2,
+      "classroomId": 4,
+      "teacherId": 13
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 3,
+      "lessonNumberId": 1,
+      "lessonId": 1,
+      "lessonTypeId": 2,
+      "classroomId": 3,
+      "teacherId": 17
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 3,
+      "lessonNumberId": 2,
+      "lessonId": 1,
+      "lessonTypeId": 1,
+      "classroomId": 4,
+      "teacherId": 14
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 4,
+      "lessonNumberId": 1,
+      "lessonId": 7,
+      "lessonTypeId": 4,
+      "classroomId": 3,
+      "teacherId": 13
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 4,
+      "lessonNumberId": 2,
+      "lessonId": 6,
+      "lessonTypeId": 4,
+      "classroomId": 2,
+      "teacherId": 10
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 4,
+      "lessonNumberId": 3,
+      "lessonId": 10,
+      "lessonTypeId": 4,
+      "classroomId": 4,
+      "teacherId": 12
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 5,
+      "lessonNumberId": 1,
+      "lessonId": 7,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 13
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 5,
+      "lessonNumberId": 2,
+      "lessonId": 3,
+      "lessonTypeId": 4,
+      "classroomId": 2,
+      "teacherId": 16
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 5,
+      "lessonNumberId": 3,
+      "lessonId": 10,
+      "lessonTypeId": 4,
+      "classroomId": 2,
+      "teacherId": 4
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 6,
+      "lessonNumberId": 1,
+      "lessonId": 1,
+      "lessonTypeId": 2,
+      "classroomId": 1,
+      "teacherId": 17
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 1,
+      "lessonNumberId": 2,
+      "lessonId": 7,
+      "lessonTypeId": 3,
+      "classroomId": 3,
+      "teacherId": 3
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 1,
+      "lessonNumberId": 3,
+      "lessonId": 10,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 16
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 1,
+      "lessonNumberId": 4,
+      "lessonId": 4,
+      "lessonTypeId": 1,
+      "classroomId": 1,
+      "teacherId": 7
+    },
+    {
+      "weekTypeId": 1,
+      "dayId": 1,
+      "lessonNumberId": 6,
+      "lessonId": 3,
+      "lessonTypeId": 1,
+      "classroomId": 2,
+      "teacherId": 3
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 1,
+      "lessonNumberId": 1,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 1,
+      "lessonNumberId": 2,
+      "lessonId": 3,
+      "lessonTypeId": 4,
+      "classroomId": 1,
+      "teacherId": 7
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 1,
+      "lessonNumberId": 3,
+      "lessonId": 1,
+      "lessonTypeId": 3,
+      "classroomId": 4,
+      "teacherId": 8,
+      "subGroupId": 1
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 1,
+      "lessonNumberId": 3,
+      "lessonId": 7,
+      "lessonTypeId": 1,
+      "classroomId": 2,
+      "teacherId": 9,
+      "subGroupId": 2
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 2,
+      "lessonNumberId": 1,
+      "lessonId": 1,
+      "lessonTypeId": 2,
+      "classroomId": 4,
+      "teacherId": 13
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 2,
+      "lessonNumberId": 2,
+      "lessonId": 1,
+      "lessonTypeId": 2,
+      "classroomId": 3,
+      "teacherId": 17
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 2,
+      "lessonNumberId": 5,
+      "lessonId": 1,
+      "lessonTypeId": 1,
+      "classroomId": 4,
+      "teacherId": 14
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 3,
+      "lessonNumberId": 1,
+      "lessonId": 7,
+      "lessonTypeId": 4,
+      "classroomId": 3,
+      "teacherId": 13
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 4,
+      "lessonNumberId": 2,
+      "lessonId": 6,
+      "lessonTypeId": 4,
+      "classroomId": 2,
+      "teacherId": 10
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 4,
+      "lessonNumberId": 3,
+      "lessonId": 10,
+      "lessonTypeId": 4,
+      "classroomId": 4,
+      "teacherId": 12
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 5,
+      "lessonNumberId": 1,
+      "lessonId": 7,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 13
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 5,
+      "lessonNumberId": 2,
+      "lessonId": 3,
+      "lessonTypeId": 4,
+      "classroomId": 2,
+      "teacherId": 16
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 5,
+      "lessonNumberId": 3,
+      "lessonId": 10,
+      "lessonTypeId": 4,
+      "classroomId": 2,
+      "teacherId": 4
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 6,
+      "lessonNumberId": 1,
+      "lessonId": 1,
+      "lessonTypeId": 2,
+      "classroomId": 1,
+      "teacherId": 17
+    },
+    {
+      "weekTypeId": 2,
+      "dayId": 6,
+      "lessonNumberId": 5,
+      "lessonId": 3,
+      "lessonTypeId": 1,
+      "classroomId": 2,
+      "teacherId": 3
+    },
+    {
+      "timing": "2020-01-20",
+      "exam": true,
+      "lessonNumberId": 1,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-01-22",
+      "exam": true,
+      "lessonNumberId": 2,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-01-25",
+      "exam": true,
+      "lessonNumberId": 3,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-01-25",
+      "exam": true,
+      "lessonNumberId": 4,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    }
+  ],
+  "schedules_ИБZ-311": [
+    {
+      "timing": "2020-01-15",
+      "lessonNumberId": 1,
+      "lessonId": 9,
+      "lessonTypeId": 2,
+      "classroomId": 1,
+      "teacherId": 12,
+      "subGroupId": 1
+    },
+    {
+      "timing": "2020-01-15",
+      "lessonNumberId": 1,
+      "lessonId": 6,
+      "lessonTypeId": 2,
+      "classroomId": 4,
+      "teacherId": 6,
+      "subGroupId": 2
+    },
+    {
+      "timing": "2020-01-15",
+      "lessonNumberId": 3,
+      "lessonId": 4,
+      "lessonTypeId": 4,
+      "classroomId": 1,
+      "teacherId": 8
+    },
+    {
+      "timing": "2020-01-17",
+      "lessonNumberId": 1,
+      "lessonId": 5,
+      "lessonTypeId": 2,
+      "classroomId": 3,
+      "teacherId": 6
+    },
+    {
+      "timing": "2020-01-17",
+      "lessonNumberId": 2,
+      "lessonId": 2,
+      "lessonTypeId": 2,
+      "classroomId": 1,
+      "teacherId": 8
+    },
+    {
+      "timing": "2020-01-18",
+      "lessonNumberId": 1,
+      "lessonId": 6,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 3
+    },
+    {
+      "timing": "2020-01-18",
+      "lessonNumberId": 2,
+      "lessonId": 4,
+      "lessonTypeId": 2,
+      "classroomId": 1,
+      "teacherId": 11
+    },
+    {
+      "timing": "2020-01-18",
+      "lessonNumberId": 3,
+      "lessonId": 7,
+      "lessonTypeId": 2,
+      "classroomId": 4,
+      "teacherId": 5
+    },
+    {
+      "timing": "2020-11-19",
+      "lessonNumberId": 5,
+      "lessonId": 5,
+      "lessonTypeId": 4,
+      "classroomId": 4,
+      "teacherId": 16
+    },
+    {
+      "timing": "2020-01-19",
+      "lessonNumberId": 6,
+      "lessonId": 5,
+      "lessonTypeId": 2,
+      "classroomId": 2,
+      "teacherId": 6
+    },
+    {
+      "timing": "2020-01-22",
+      "lessonNumberId": 4,
+      "lessonId": 7,
+      "lessonTypeId": 2,
+      "classroomId": 3,
+      "teacherId": 14
+    },
+    {
+      "timing": "2020-01-22",
+      "lessonNumberId": 5,
+      "lessonId": 4,
+      "lessonTypeId": 4,
+      "classroomId": 4,
+      "teacherId": 14
+    },
+    {
+      "timing": "2020-01-22",
+      "lessonNumberId": 6,
+      "lessonId": 2,
+      "lessonTypeId": 3,
+      "classroomId": 3,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-01-24",
+      "lessonNumberId": 4,
+      "lessonId": 6,
+      "lessonTypeId": 2,
+      "classroomId": 2,
+      "teacherId": 8
+    },
+    {
+      "timing": "2020-01-24",
+      "lessonNumberId": 5,
+      "lessonId": 4,
+      "lessonTypeId": 4,
+      "classroomId": 1,
+      "teacherId": 12
+    },
+    {
+      "timing": "2020-01-24",
+      "lessonNumberId": 6,
+      "lessonId": 6,
+      "lessonTypeId": 1,
+      "classroomId": 4,
+      "teacherId": 12
+    },
+    {
+      "timing": "2020-01-28",
+      "lessonNumberId": 4,
+      "lessonId": 7,
+      "lessonTypeId": 1,
+      "classroomId": 1,
+      "teacherId": 14
+    },
+    {
+      "timing": "2020-01-28",
+      "lessonNumberId": 5,
+      "lessonId": 8,
+      "lessonTypeId": 1,
+      "classroomId": 2,
+      "teacherId": 12
+    },
+    {
+      "timing": "2020-01-28",
+      "lessonNumberId": 5,
+      "lessonId": 8,
+      "lessonTypeId": 4,
+      "classroomId": 4,
+      "teacherId": 9
+    },
+    {
+      "timing": "2020-02-01",
+      "lessonNumberId": 1,
+      "lessonId": 3,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 17
+    },
+    {
+      "timing": "2020-02-01",
+      "lessonNumberId": 2,
+      "lessonId": 3,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 17
+    },
+    {
+      "timing": "2020-02-03",
+      "lessonNumberId": 4,
+      "lessonId": 3,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 17
+    },
+    {
+      "timing": "2020-02-03",
+      "lessonNumberId": 5,
+      "lessonId": 3,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 17
+    },
+    {
+      "timing": "2020-02-05",
+      "lessonNumberId": 5,
+      "lessonId": 3,
+      "lessonTypeId": 3,
+      "classroomId": 2,
+      "teacherId": 17
+    },
+    {
+      "timing": "2020-02-10",
+      "exam": true,
+      "lessonNumberId": 1,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-02-15",
+      "exam": true,
+      "lessonNumberId": 2,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-02-20",
+      "exam": true,
+      "lessonNumberId": 3,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
+    },
+    {
+      "timing": "2020-02-25",
+      "exam": true,
+      "lessonNumberId": 4,
+      "lessonId": 5,
+      "lessonTypeId": 3,
+      "classroomId": 1,
+      "teacherId": 10
     }
   ]
 }
