@@ -1,5 +1,7 @@
+import Group from 'App/Models/Group/Group'
+
 const lodash = require('lodash')
-import { GroupsList, CourseWithGroups } from 'Contracts/ResponseJsonTypesInterface'
+import { GroupsList, CourseWithGroups } from 'App/Helpers/Schedule/ScheduleInterfaces'
 
 export class ScheduleSerialize {
   /**
@@ -13,12 +15,30 @@ export class ScheduleSerialize {
   ): Array<CourseWithGroups> {
     return this.getWithCoursesByGroups(groups, trainingFormId)
   }
+
+  /**
+   *
+   * @param group
+   */
+  public static getSerializeSchedule(group: Group) {
+    return {
+      id: group.id,
+      course: group.course,
+      abbreviation: group.abbreviation,
+      trainingTypeId: group.trainingType.id,
+      trainingType: group.trainingType.name,
+      trainingFormId: group.trainingForm.id,
+      trainingForm: group.trainingForm.name,
+      weekType: group.schedule[0].weekType ? group.schedule[0].weekType.name : '',
+      timetable: this.getSerializeTimetable(group.schedule),
+    }
+  }
   /**
    * This method serializes the group schedule to the
    * desired format for sending a ready json response
    * @param groupSchedule
    */
-  public static serializeGroupSchedule(groupSchedule: Array<object | string[]>) {
+  protected static getSerializeTimetable(groupSchedule: Array<object | string[]>) {
     return this.addMissingDayInObject(
       lodash(groupSchedule)
         .map((item) => {

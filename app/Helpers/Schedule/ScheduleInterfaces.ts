@@ -1,3 +1,10 @@
+export interface ScheduleOptions {
+  readonly group: string
+  readonly weekTypeId: number | boolean
+  readonly intervalDate: string
+  groupId: number
+}
+
 export interface GroupsList {
   id: number
   course: number
@@ -23,13 +30,28 @@ export enum TrainingForms {
   /**
    * Очная форма обучения
    */
-  FullTimeTypeId = 1,
+  FullTimeFormId = 1,
   /**
    * Заочная форма обучения
    */
-  PartTimeTypeId = 2,
+  PartTimeFormId = 2,
   /**
    * Очно-заочная форма обучения
    */
-  FullAndPartTimeTypeId = 3,
+  FullAndPartTimeFormId = 3,
+}
+
+export enum TrainingTypes {
+  /**
+   * Бакалавриат
+   */
+  BaccalaureateId = 1,
+  /**
+   * Магистаратура
+   */
+  MagistracyId = 2,
+  /**
+   * Аспирантура
+   */
+  GraduateSchoolId = 3,
 }

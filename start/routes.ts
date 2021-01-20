@@ -24,4 +24,4 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 Route.get('groups', 'UsersController.index')
-Route.get('schedule', 'UsersController.schedule')
+Route.get('timetable/:group', 'SchedulesController.schedule')

@@ -1,7 +1,7 @@
 // import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 
 import Faculty from 'App/Models/Group/Faculty'
-import { ResponseJson } from 'Contracts/ResponseJson'
+import { ScheduleResponse } from 'App/Helpers/Schedule/ScheduleResponse'
 import Group from 'App/Models/Group/Group'
 
 export default class UsersController {
@@ -13,7 +13,7 @@ export default class UsersController {
       })
       .firstOrFail()
     // query.forEach((query) => {})
-    return ResponseJson.getFacultyGroups(query)
+    return ScheduleResponse.getFacultyGroups(query)
   }
 
   public async schedule() {
@@ -37,7 +37,7 @@ export default class UsersController {
           .preload('subGroup')
       })
       .firstOrFail()
-    return ResponseJson.getSerializeSchedule(group)
+    return ScheduleResponse.getSerializeSchedule(group)
     // return query.serialize({
     //   fields: ['id', 'abbreviation', ''],
     //   relations: {
