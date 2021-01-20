@@ -1,9 +1,9 @@
 import Group from 'App/Models/Group/Group'
 import { ScheduleOptions } from 'App/Helpers/Schedule/ScheduleInterfaces'
-import { DateTime } from 'luxon'
-import EvenOddWeek from 'App/Models/OtherModels/EvenOddWeek'
+import { ScheduleDefinitions } from 'App/Helpers/Schedule/ScheduleDefinitions'
+import ScheduleException from 'App/Exceptions/ScheduleException'
 
-export class ScheduleQuery {
+export class ScheduleQuery extends ScheduleDefinitions {
   /**
    * a query for a baccalaureate's schedule
    * with preload relations for further serialize
@@ -11,26 +11,30 @@ export class ScheduleQuery {
    * @param options
    */
   protected static async queryScheduleBaccalaureate(options: ScheduleOptions): Promise<Group> {
-    return await Group.query()
-      .where('id', options.groupId)
-      .preload('trainingType')
-      .preload('trainingForm')
-      .preload('schedule', async (schedule) => {
-        schedule
-          .whereNull('exam')
-          .andWhere('weekTypeId', await this.defineWeekParity(options.weekTypeId))
-          .preload('weekType')
-          .preload('lesson')
-          .preload('lessonNumber')
-          .preload('lessonType')
-          .preload('day')
-          .preload('classroom')
-          .preload('teacher', (teacher) => {
-            teacher.preload('degree')
-          })
-          .preload('subGroup')
-      })
-      .firstOrFail()
+    try {
+      return await Group.query()
+        .where('id', options.groupId)
+        .preload('trainingType')
+        .preload('trainingForm')
+        .preload('schedule', async (schedule) => {
+          schedule
+            .whereNull('exam')
+            .andWhere('weekTypeId', await this.defineWeekParity(options.weekTypeId))
+            .preload('weekType')
+            .preload('lesson')
+            .preload('lessonNumber')
+            .preload('lessonType')
+            .preload('day')
+            .preload('classroom')
+            .preload('teacher', (teacher) => {
+              teacher.preload('degree')
+            })
+            .preload('subGroup')
+        })
+        .firstOrFail()
+    } catch (e) {
+      throw new ScheduleException('Not allowed')
+    }
   }
 
   /**
@@ -41,7 +45,6 @@ export class ScheduleQuery {
    * @param options
    */
   protected static async queryScheduleOtherTrainingType(options: ScheduleOptions): Promise<Group> {
-    console.log(this.defineIntervalDate(options.intervalDate))
     return await Group.query()
       .where('id', options.groupId)
       .preload('trainingType')
@@ -64,27 +67,5 @@ export class ScheduleQuery {
         )
       })
       .firstOrFail()
-  }
-
-  /**
-   * Specifies the interval of time depending on the
-   * value of the intervalDate parameter
-   * @private
-   * @param intervalDate
-   */
-  private static defineIntervalDate(intervalDate: string): Array<string> {
-    if (intervalDate === 'week') {
-      return [DateTime.local().toSQLDate(), DateTime.local().plus({ week: 1 }).toSQLDate()]
-    }
-    return [DateTime.local().toSQLDate(), DateTime.local().plus({ week: 1 }).toSQLDate()]
-  }
-
-  private static async defineWeekParity(weekTypeId: number | boolean): Promise<number> {
-    if (weekTypeId && (weekTypeId === 1 || weekTypeId === 2)) {
-      return weekTypeId
-    }
-    const localDate = DateTime.local().startOf('week').toSQLDate()
-    const week = await EvenOddWeek.findByOrFail('startOfWeek', localDate)
-    return week.parity
   }
 }

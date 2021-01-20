@@ -9,6 +9,7 @@ import {
 import { ScheduleSerialize } from 'App/Helpers/Schedule/ScheduleSerialize'
 import { ScheduleQuery } from 'App/Helpers/Schedule/ScheduleQuery'
 import Group from 'App/Models/Group/Group'
+import ScheduleException from 'App/Exceptions/ScheduleException'
 
 export class ScheduleResponse extends ScheduleQuery {
   /**
@@ -16,14 +17,18 @@ export class ScheduleResponse extends ScheduleQuery {
    * @param options
    */
   public static async getSchedule(options: ScheduleOptions) {
-    const group = await Group.findByOrFail('abbreviation', options.group)
-    options.groupId = group.id
-    if (this.isBaccalaureate(group)) {
-      const query = await this.queryScheduleBaccalaureate(options)
+    try {
+      const group = await Group.findByOrFail('abbreviation', options.group)
+      options.groupId = group.id
+      if (this.isBaccalaureate(group)) {
+        const query = await this.queryScheduleBaccalaureate(options)
+        return ScheduleSerialize.getSerializeSchedule(query)
+      }
+      const query = await this.queryScheduleOtherTrainingType(options)
       return query
+    } catch (e) {
+      throw new ScheduleException('Не удалось найти группу', 500)
     }
-    const query = await this.queryScheduleOtherTrainingType(options)
-    return query
   }
 
   /**

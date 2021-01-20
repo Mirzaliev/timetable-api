@@ -21,13 +21,13 @@ export default class ExceptionHandler extends HttpExceptionHandler {
     super(Logger)
   }
 
-  public async handle(error, ctx) {
-    if (error.code === 'E_VALIDATION_FAILURE') {
-      return ctx.response.status(422).send(error.messages)
-    } else if (error.code === 'E_ROW_NOT_FOUND') {
-      return ctx.response.status(404).send('Не удалось найти')
-    }
-    return super.handle(error, ctx)
-  }
-  public async report() {}
+  // public async handle(error, ctx) {
+  //   if (error.code === 'E_VALIDATION_FAILURE') {
+  //     return ctx.response.status(422).send(error.messages)
+  //   } else if (error.code === 'E_ROW_NOT_FOUND') {
+  //     return ctx.response.status(404).send('Не удалось найти')
+  //   }
+  //   return super.handle(error, ctx)
+  // }
+  // public async report() {}
 }
