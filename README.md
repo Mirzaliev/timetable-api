@@ -6,11 +6,19 @@ Used by
  * Lodash
  * MySQL ^7.0
  
-Starting
-```javascript
-1. node ace migration:run
-2. node ace db:seed
-3. npm run dev --watch
+How to start?
+```bash
+# install dependencies
+$ npm run install
+
+# run migration
+$ node ace migration:run
+
+# run seed
+$ node ace db:seed
+
+# start local server
+$ npm run dev --watch
 ```
 
 ###### Physical database model
