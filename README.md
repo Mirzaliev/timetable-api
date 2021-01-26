@@ -17,7 +17,7 @@ $ node ace migration:run
 # run seed
 $ node ace db:seed
 
-# start local server
+# serve with hot reload at 127.0.0.1:3333
 $ npm run dev --watch
 ```
 
